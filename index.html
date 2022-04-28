@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <!-- <script>
+        let demo = document.getElementById('demo')
+        
+        let cards =[{name:'mtn',amount:100,pin:121},{name:'glo',amount:100,pin:123},{name:'airtel',amount:200,pin:1232}]
+        let arr = [10,20,30,12,48,60]
+        cards.forEach(function(element) {
+            console.log(element);
+            
+        })
+
+        arr.forEach(function(element,i) {
+            demo.innerHTML += `${(element)}<br>`
+            console.log(i+1,element);
+        })
+    </script> -->
+    <script>
+         let cards =[{name:'mtn',amount:100,pin:121},{name:'glo',amount:100,pin:123},{name:'airtel',amount:200,pin:1232}]
+            for (const [i,element] of cards.entries()) {
+                console.log(i+1,element);
+            }
+    </script>
+</body>
+</html>
+{name:'Azeez',age:'20'},{name:'Bolade',age:'30'},{name:'shukurah',age:'20'}
